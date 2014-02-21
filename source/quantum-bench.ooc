@@ -4,6 +4,8 @@ import quantum/[world, collisions]
 
 import dye/[core, app, math, primitives]
 
+import math/Random
+
 QuantumBench: class extends App {
 
     world: World
@@ -50,7 +52,10 @@ MyBox: class {
         app world addBody(body)
 
         rect := GlRectangle new(size)
-        rect filled = false
+        rect color r = Random randInt(0, 255)
+        rect color g = Random randInt(0, 255)
+        rect color b = Random randInt(0, 255)
+        rect opacity = 0.4
         rect pos = body pos
         app dye add(rect)
     }
