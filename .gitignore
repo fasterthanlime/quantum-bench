@@ -1,0 +1,27 @@
+# ooc stuff
+/.libs
+/.sam-cache
+/rock_tmp
+
+# generated stuff
+/build
+
+# *nix executable
+/quantum-bench
+
+# Win32 exe
+*.exe
+*.dll
+
+# OSX debug symbols
+*.dSYM
+
+# log stuff
+/app.log
+
+# OSX Finder shit
+.DS_Store
+
+# profiling stuff
+callgrind.out.*
+*.trace

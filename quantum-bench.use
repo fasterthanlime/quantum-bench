@@ -1,0 +1,4 @@
+Name: quantum-bench
+Requires: quantum, dye
+SourcePath: source
+Main: quantum-bench
